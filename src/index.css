@@ -1,13 +1,152 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0%;
+    padding: 0%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    background-color: #504f4f;
+}
+
+img{
+    height: 6rem;
+    width: 7rem;
+    border-radius: 50%;
+    margin-left: 12px;
+    margin-top: 19px;
+}
+
+hr{
+    margin-top: 250px;
+    width: 80%;
+    margin-left: 108px;
+    box-shadow: 9px 4px 12px 1px red;
+}
+
+.fin{
+    width: 80%;
+    margin-left: 108px;
+    box-shadow: 9px 4px 12px 1px red;
+}
+
+header{
+    height: 21rem;
+    background-image: url("./Components/IU//Img/fondo2.jpg");
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+}
+
+footer{
+    height: 12rem;
+    background-image: url(./Components/IU/Img/fondo3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.search{
+    width: 322px;
+    text-align: center;
+    border-radius: 4rem;
+    border: none;
+    text-decoration: none;
+    margin-left: 12px;
+    box-shadow: 1px 2px 14px 1px red;
+}
+
+h1{
+    color: #fff;
+    text-shadow: 2px 0px 4px rgb(247 3 3);
+}
+
+h2{
+    color: #fff;
+    text-shadow: 2px 0px 4px rgb(247 3 3);
+    font-size: 1.5rem;
+    margin-top: 43rem;
+    text-align: center;
+    margin-left: -379px;
+}
+
+h3{
+    color: #fff;
+    text-shadow: 2px 0px 4px rgb(247 3 3);
+    font-size: 1.5rem;
+    margin-left: 6rem;
+    padding: 5rem;
+}
+
+h4{
+    background-color: #3c3d3d;
+    font-size: 1.1rem;
+    font-family: fangsong;
+    text-align: center;
+    width: 9rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    color: #fff;
+}
+
+p{
+    background-color: #3c3d3d;
+    font-size: 1.3rem;
+    font-family: fangsong;
+    text-align: center;
+    width: 9rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    color: #fff;
+}
+
+.render{
+    width: 65rem;
+    background-color: #3c3d3d;
+    height: auto;
+    margin-top: 4rem;
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+    border-radius: 3rem;
+}
+
+.hijo{
+    display: inline-table;
+    margin: 1rem;
+    margin-left: 2.7rem;
+}
+
+.pie{
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
+.carta{
+    background-color: #8a8a8a;
+    width: 12rem;
+    height: 17rem;
+    border-radius: 2rem;
+    display: table-cell;
+}
+
+.personaje-header{
+    background-color: #ffffff;
+    height: 4rem;
+    border-radius: 33px 33px 0px 0px;
+    box-shadow: 1px 2px 12px rgb(247 3 3)
+}
+
+.foto{
+    margin-left: 2rem;
+    margin-top: -2rem;
+    width: 8rem;
+    height: 8rem;
 }
